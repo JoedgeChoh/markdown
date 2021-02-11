@@ -3,7 +3,7 @@ README
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
 ****
-	
+
 |作者|果冻虾仁|
 |---|---
 |知乎|[![zhihu-shield]][zhihu]
@@ -159,6 +159,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 - 第二部分标记实际URL。
 
 >使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。除了干净之外，它还能达到复用的目的，比如你在多个地方想使用同一个链接，那么文内使用标识符，只在最底部给标识符定义出实际的URL链接即可，类似编程语言中的变量。
+>
 >>URL标识符是我起的名字，不知道是否准确。囧。。
 
 ### 链接本仓库里的URL
@@ -250,7 +251,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 1. 这是一级的有序列表，数字1还是1
    1. 这是二级的有序列表，阿拉伯数字在显示的时候变成了罗马数字
       1. 这是三级的有序列表，数字在显示的时候变成了英文字母
-	 
+	
 
 ### 复选框列表
 #### 语法
@@ -273,7 +274,8 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 您可以使用这个功能来标注某个项目各项任务的完成情况。
 > Tip:
->> 在GitHub的**issue**中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。
+>
+> > 在GitHub的**issue**中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。
 
 ## 块引用
 
@@ -295,10 +297,11 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 #### 效果
 > 数据结构
->> 树
->>> 二叉树
->>>> 平衡二叉树
->>>>> 满二叉树
+> > 树
+> > > 二叉树
+> > > > 平衡二叉树
+> > > >
+> > > > > 满二叉树
 
 代码高亮
 ----------
@@ -374,6 +377,7 @@ diff语法
 ---------
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
+
 #### 语法
 其语法与代码高亮类似，只是在三个反引号后面写diff，
 并且其内容中，可以用 `+ `开头表示新增，`- `开头表示删除。
